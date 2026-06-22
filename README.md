@@ -266,4 +266,9 @@ Building intelligent systems, scalable web experiences and future-ready digital 
 
 # 📜 License
 
-MIT License © 2026 Rakshit Chadgal
+MIT License
+
+Copyright (c) 2026 Rakshit Chadgal
+
+Permission is hereby granted, free of charge,
+to any person obtaining a copy...
