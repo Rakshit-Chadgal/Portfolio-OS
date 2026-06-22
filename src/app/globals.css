@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050816;
+  --surface: #0b1020;
+  --surface-2: #10172a;
+
+  --text: #f8fafc;
+  --text-muted: #94a3b8;
+
+  --primary: #6d5cff;
+  --primary-hover: #8476ff;
+
+  --border: rgba(255,255,255,0.08);
+
+  --radius: 18px;
+}
+
+.light {
+  --background: #f8fafc;
+  --surface: #ffffff;
+  --surface-2: #f1f5f9;
+
+  --text: #0f172a;
+  --text-muted: #475569;
+
+  --primary: #5b4bff;
+  --primary-hover: #4338ca;
+
+  --border: rgba(15,23,42,0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--primary);
+  color: white;
+}
